@@ -1,0 +1,143 @@
+.nav {
+    box-shadow: 0 2px 6px rgba(24, 106, 133, .2);
+    background: #eaf2f8;
+}
+
+.navLink {
+    color: #01517f;
+    font-weight: bold;
+}
+
+.bi-ticket-detailed-fill {
+    font-size: 2em;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+
+.btnLogin {
+    color: #01517f;
+    border: 2px solid #01517f;
+    border-radius: 5px;
+}
+
+.btnLogin:hover {
+    color: #fff;
+    background-color: #01517f;
+    border: 2px solid #fff;
+}
+
+.btnCreateEvent {
+    color: #fff;
+    background-color: #01517f;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.btnCreateEvent:hover {
+    color: #01517f;
+    border: 2px solid #01517f;
+    background-color: transparent;
+}
+
+.btnCreateEvent1 {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.btnCreateEvent1:hover {
+    color: #01517f;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btnBack {
+    color: #0589a3;
+    border: 2px solid #0589a3;
+    border-radius: 5px;
+}
+
+.btnBack:hover {
+    color: #ffffff;
+    background-color: #0589a3;
+    border: 2px solid #0589a3;
+}
+
+.btnDelete:hover {
+    color: #A30000;
+    border: 2px solid #A30000;
+    border-radius: 5px;
+}
+
+.btnDelete {
+    color: #ffffff;
+    background-color: #A30000;
+    border: 2px solid #A30000;
+}
+
+.disableBtn{
+    color: #fff;
+    background-color: dimgrey;
+    border-radius: 5px;
+}
+
+.btnSelectTicket:hover {
+    color: #0589a3;
+    border: 2px solid #0589a3;
+    border-radius: 5px;
+}
+
+.btnSelectTicket {
+    color: #ffffff;
+    background-color: #0589a3;
+    border: 2px solid #0589a3;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer-description {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-links a:hover {
+    color: #0589a3;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.footer-rights {
+    margin-top: 20px;
+    color: #F4F8F9;
+}
+
+.hero-section {
+    background-color: #01517f;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+.sticky-div {
+    position: sticky;
+    top: 85px;
+    background-color: white;
+    z-index: 1000;
+}
+
+.selected-card {
+    border: 2px solid limegreen;
+}

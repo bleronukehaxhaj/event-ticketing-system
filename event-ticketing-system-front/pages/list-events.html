@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Your Website</title>
+    <style>
+
+        .event-card{
+            text-decoration: none;
+        }
+
+        .event-card img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg nav sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#" style="color: #01517f;">
+            <i class="bi bi-ticket-detailed-fill"></i>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="./list-events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="./contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link btnLogin" href="./login.html" id="btnNavLogin">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btnCreateEvent" href="./create-event.html" id="btnNavCreateEvent">Create Event</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false" style="color: #01517f;">
+                        Profile
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="profileDropdown">
+                        <li><a class="dropdown-item" href="../pages/list-user-events.html" style="color: #01517f;">My Events</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: #01517f;">Settings</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" id="btnLogout" style="color: #01517f;">Logout</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section">
+    <div class="container">
+        <h1>Welcome to Our Event Platform</h1>
+        <p>Discover and create amazing events near you.</p>
+        <a href="../pages/create-event.html" class="btn btnCreateEvent1 btn-lg" id="btnCreateEventBody">Create Event</a>
+    </div>
+</section>
+
+<section class="container mt-5">
+    <div class="row" id="eventsContainer">
+        <p>No events available.</p>
+    </div>
+</section>
+
+<footer class="footer" style="background-color: #01517f">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 footer-description">
+                <p style="color: white">
+                    Our cutting-edge event ticketing system is designed to streamline the ticketing process, providing
+                    you with a seamless and efficient way to manage your events.
+                </p>
+            </div>
+
+            <div class="col-md-4 footer-links" style="color: white">
+                <h5>Quick Links</h5>
+                <a href="#">Home</a>
+                <a href="#">Events</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col-md-4 social-icons">
+                <h5 style="color: white">Connect With Us</h5>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-12 text-center footer-rights">
+                All rights reserved &copy; 2022 Your Company
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="../scripts/list-events.js"></script>
+<script src="../scripts/script.js"></script>
+</body>
+</html>

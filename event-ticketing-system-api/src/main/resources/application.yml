@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/event-ticketingDB
+    username: cacttus
+    password: cacttus
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
+
+
+
